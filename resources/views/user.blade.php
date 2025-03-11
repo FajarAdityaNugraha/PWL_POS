@@ -15,11 +15,10 @@
             </tr>
             @foreach ($data as $d)
                 <tr>
-                    <td>{{ $user }}</td>
-                    {{-- <td>{{ $data->user_id }}</td>
+                    <td>{{ $data->user_id }}</td>
                     <td>{{ $data->username }}</td>
                     <td>{{ $data->nama }}</td>
-                    <td>{{ $data->level_id }}</td> --}}
+                    <td>{{ $data->level_id }}</td>
                     {{-- <td>{{ $d->user_id }}</td>
                     <td>{{ $d->username }}</td>
                     <td>{{ $d->nama }}</td>
